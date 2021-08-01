@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+:root{
+	--pest: #00FFEF;
+	--white: #ffffff;
+	--black: #010101;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none !important;
+	list-style-type: none;
+}
+
+body{
+	font-family: font-family: 'PT Sans', sans-serif;
+}
+
+.container{
+	width: 90%;
+	margin: 0 auto;
+	/*background-color: red;*/
+}
+
+
+.head-area-all{
+	background-color: var(--pest);
+}
+.head-area{
+	display: flex;
+    /*width: 100%;*/
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.nav-icon{
+	width: 20%;
+	/*background-color: darkred;*/
+	font-size: 30px;
+}
+.nav-icon i{
+    color: var(--black);
+}
+.nav-icon i:hover{
+	color: whitesmoke;
+	transition-duration: .3s;
+}
+.logo-top{
+	width: 60%;
+	/*background-color: green;*/
+	text-align: center;
+}
+.media{
+    width: 20%;
+    /*background-color: skyblue;*/
+    
+}
+
+.media-icon ul{
+	display: flex;
+	justify-content: flex-end;
+}
+.media-icon i{
+	font-size: 25px;
+	padding: 0 20px;
+	color: var(--black);
+}
+.media-icon i:hover{
+	color: #f0ffff;
+	transition-duration: .3s;
+}
+/*---Slider Section---*/
+.carousel-indicators li{
+	border-radius: 50%;
+	width: 17px !important;
+	height: 17px !important;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 0;
+    left: 15%;
+    top: 250px;
+    height: 300px;
+    padding-top: 1.25rem;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .6);
+    border: 2.5px solid white;
+    border-radius: 10px;
+}
+.carousel-caption h3{
+	font-size: 35px;
+	color: white;
+	font-family: 'Oleo Script', cursive;
+}
+.carousel-caption p{
+	/*width: 50%;*/
+	margin: 0 100px;
+	color: white;
+    font-weight: bold;
+}
+.carousel-icon{
+	width: 30%;
+    display: flex;
+    /*background-color: green;*/
+    margin: 30px auto;
+}
+.carousel-icon li{
+    /*background-color: red;*/
+    
+    
+    margin: 0 auto;
+    
+    
+}
+.carousel-icon li i{
+	border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    border: 2px solid white;
+      /*background-color: red;*/
+      padding: 20px 20px;
+      font-size: 40px;
+}
+/*---Features Area---*/
+.features-all{
+	margin-top: 100px;
+}
+.features-header h3{
+	text-align: center;
+	font-size: 35px;
+	font-weight: bold;
+}
+.features-header p{
+	text-align: center;
+	font-size: 25px;
+	margin-top: 15px;
+}
+.features-content{
+	display: flex;
+	margin-top: 50px;
+	justify-content: space-between;
+
+}
+.features-left{
+	margin-top: 100px;
+	width: 25%;
+	/*background-color: green;*/
+}
+.features-left a{
+	color: black;
+}
+.features-left a:hover{
+	color: var(--pest);
+	transition-duration: .3s;
+}
+.features-left-2{
+	margin-top: 100px;
+}
+.tin-img{
+	width: 31%;
+}
+.features-right{
+    width: 25%;
+    margin-top: 100px;
+    /*background-color: green;*/
+}
+.features-right a{
+	color: black;
+}
+.features-right a:hover{
+	color: var(--pest);
+	transition-duration: .3s;
+}
+.features-right-2{
+	margin-top: 100px;
+}
+/*---Footer Section*/
+.footer-section-all{
+	background-color: var(--black);
+	margin-top: 100px;
+	padding-bottom: 70px;
+}
+.footer-caption h3{
+    text-align: center;
+    color: var(--pest);
+    padding: 50px 0 20px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.footer-caption p{
+	text-align: center;
+	color: lightgray;
+	font-size: 20px;
+
+}
+.footer-mail{
+	text-align: center;
+    margin-top: 30px;
+}
+.footer-mail input[type="email"]{
+   width: 60%;
+   padding: 10px 10px;
+   border-radius: 10px;
+   font-weight: bold;
+}
+.footer-mail input[type="submit"]{
+   width: 12%;
+   background-color: var(--pest);
+   border-radius: 10px;
+   font-weight: bold;
+   padding: 10px 10px;
+   border: 1px solid lightgray;
+}
+.footer-mail input[type="submit"]:hover{
+	color: whitesmoke;
+	background-color: gray;
+	transition-duration: .3s;
+}
+.footer-content{
+	display: flex;
+	padding: 20px;
+	margin-top: 80px;
+}
+.footer-content p{
+	color: lightgray;
+}
+.footer-add a{
+    color: lightgray;
+}
+.footer-add a:hover{
+	color: var(--pest);
+	text-decoration: none;
+}
+.footer-item-all{
+	display: flex;
+
+}
+.footer-item{
+	padding: 0 90px;
+}
+.footer-item a{
+	color: lightgray;
+}
+.footer-item a:hover{
+	color: var(--pest);
+	transition-duration: .3s;
+	text-decoration: none;
+}
+.footer-copy{
+	text-align: center;
+	color: lightgray;
+	margin-top: 50px;
+}
+.footer-copy a{
+	color: var(--pest);
+}
+.footer-copy a:hover{
+	color: white;
+	transition-duration: .3s;
+	text-decoration: none;
+}
